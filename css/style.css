@@ -1,3 +1,54 @@
+body {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  font-family: "Montserrat", sans-serif;
+  color: pink;
+}
 
+/*SPLASH*/
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url(https://i.postimg.cc/CL0FzDRD/pexels-oleg-prachuk-8110132.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.splash .page-title {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  text-transform: uppercase;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*NAVIGATION */
+.navigation {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  padding: 15px;
+  text-align: end;
+}
+.navigation a {
+  padding-left: 15px;
+  text-decoration: none;
+  color: rgb(173, 146, 204);
+  text-transform: uppercase;
+}
+.navigation ul {
+  list-style-type: none;
+}
+.navigation li {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLFNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7RUFDQSxxQ0FBQTtFQUNBLFdBQUE7QUNDSjs7QURFQSxTQUFBO0FBQ0E7RUFDSSxhQUFBO0VBQ0Esa0JBQUE7RUFDQSxvRkFBQTtFQUNBLGtDQUFBO0VBQ0Esc0JBQUE7RUFDQSw0QkFBQTtBQ0NKO0FEQUk7RUFDSSxrQ0FBQTtFQUNBLGVBQUE7RUFDQSx5QkFBQTtBQ0VSOztBREVBO0VBQ0ksa0JBQUE7RUFDQSxXQUFBO0VBQ0EsUUFBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtFQUNBLGtCQUFBO0FDQ0o7O0FERUEsY0FBQTtBQUNBO0VBQ0ksa0JBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSxlQUFBO0FDQ0o7QURDSTtFQUNJLGtCQUFBO0VBQ0EscUJBQUE7RUFDQSx5QkFBQTtFQUNBLHlCQUFBO0FDQ1I7QURFSTtFQUNJLHFCQUFBO0FDQVI7QURFSTtFQUNJLHFCQUFBO0FDQVIiLCJmaWxlIjoic3R5bGUuY3NzIn0= */
